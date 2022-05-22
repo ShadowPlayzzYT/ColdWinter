@@ -2,8 +2,8 @@
  * @name ColdWinter
  * @author ShadowPlayzzYT#7841
  * @authorLink https://twitter.com/genappleuser
- * @version 0.12
- * @description A theme for light mode which actually looks good. Something new huh? (In theory, it's just my theme DarkVibez for light mode.) DO NOT USE WITH DARK MODE!
+ * @version 0.13
+ * @description A theme for light mode which actually looks good. Something new huh? (In theory, it's just my theme DarkVibez for light mode.) Do not use with Dark Mode!
  * @source https://github.com/ShadowPlayzzYT/ColdWinter
 */
 
@@ -13,6 +13,7 @@
     --background-1: #dbdbdb; /* Background used for sidebar-like things */
     --background-2: linear-gradient(to top right, #a5a5a5, #ffffff); /* Background used for chats, friend list etc. */
     --bg-typebox: #ffffff; /* Background used for the type box below the chat */
+    --bg-card: #ffffff54; /* Background used for the cards in the Active now area */
     --attachment-bg-file: linear-gradient(90deg, rgb(0, 143, 179) 0%, rgb(0, 100, 167) 55%, rgb(0, 100, 167) 100%); /* The background of a file attachment */
     --attachment-bg-code: rgb(255, 255, 255); /* The background of a code/text attachment */
     --attachment-radius: 12px; /* Border-Radius for the attachments */
@@ -470,6 +471,15 @@
 .bd-settings-title {
   color: #000;
   font-weight: 500;
+}
+
+.emptyCard-KDifrB {
+  border-radius: 12px;
+  background: var(--bg-card);
+}
+
+.contentRegion-3HkfJJ {
+  background: var(--background-2);
 }
 
 /*Buttons*/
